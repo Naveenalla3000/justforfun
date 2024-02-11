@@ -1,5 +1,10 @@
 class Main{
   public static void main(String []arguments){
-    Syste.out.println("Just for fun 🤩 ");
+    Main main = new Main();
+    main.sayHello("World");
+  }
+  void sayHello(String name){
+    System.out.println("Hello "+name);
+    return;
   }
 }
